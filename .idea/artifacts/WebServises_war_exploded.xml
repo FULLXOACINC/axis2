@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebServises:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebServises_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebServises/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebServises" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="library" level="project" name="JAX-WS-Apache Axis (2)" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
+          <element id="library" level="project" name="Axis2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
